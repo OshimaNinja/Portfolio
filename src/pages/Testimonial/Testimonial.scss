@@ -1,0 +1,9 @@
+.testimonial {
+  background-color: $tertiary-dark-color;
+  height: 7rem;
+  grid-column: full-start / full-end;
+
+  &__background {
+    background-color: transparent;
+  }
+}

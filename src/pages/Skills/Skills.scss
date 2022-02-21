@@ -1,0 +1,67 @@
+@import "../../styles/variables/variables";
+
+.skill {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(34rem, 1fr));
+  grid-column-gap: 7rem;
+  @media screen and (max-width: 900px) {
+    grid-column-gap: 4rem;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  }
+}
+.skills {
+  background-color: $tertiary-color;
+  grid-column: full-start / full-end;
+  padding: 7rem 18.5rem;
+  grid-row: 4/5;
+  @media screen and (max-width: 1150px) {
+    padding: 7rem;
+  }
+  @media screen and (max-width: 900px) {
+    padding: 7rem 5rem;
+  }
+  &__background {
+    grid-column: full-start / full-end;
+    grid-row: 4/5;
+    &-element {
+      position: absolute;
+    }
+    &-hexagonstraight {
+      left: -5%;
+      svg {
+        path {
+          stroke: rgba(255, 255, 255, 0.1);
+        }
+      }
+    }
+  }
+
+  &__section {
+    grid-column: content-start/content-end;
+    padding-bottom: 4rem;
+  }
+  &__name {
+    color: #fff;
+  }
+  &__rectline {
+    svg rect {
+      fill: $primary-color;
+    }
+  }
+  &__content {
+    padding: 2rem 0;
+    width: 100%;
+    @media screen and (max-width: 780px) {
+      padding: 1.5rem;
+    }
+    &::after {
+      content: "";
+      display: block;
+      background-color: $primary-color;
+      width: 100%;
+      height: 0.65rem;
+      border-radius: 8px;
+      position: relative;
+    }
+  }
+}
