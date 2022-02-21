@@ -35,14 +35,13 @@ const About = () => {
           <div className="about__paragraph paragraph--big">
             I'm a{" "}
             <span className="u-color-primary-light">
-              Professional Full-stack developer
+              Senior Full-stack developer
             </span>{" "}
-            and I am very passionate and dedicated to my work, I have acquired
-            the skills and knowledge necessary to make your project a success, I
-            enjoy every step of the Web Development process, from building the
-            base of the app to the final product, but I find the most
-            satisfaction in seeing the finished product do everything for you
-            that it was created to do.
+            and Web development was my hobby since a teenage. At now my hobby becomes
+            a job that gives me the freedom and the right to manage my work time and
+            place myself. I always try to achieve maximum results because the
+            satisfaction of the clients is my top priority. I am truly believing that your task
+            will be done honestly, high quality and on time.
           </div>
           <div className="about__signature">
             <Signature />

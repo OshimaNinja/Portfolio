@@ -24,13 +24,14 @@ const Form = () => {
           </div>
           <div className="form__details">
             <div className="detail">
-              <span>—</span> +917239873575
+              <span>—</span> +447903414320
+
             </div>
             <div className="detail">
-              <span>—</span> jain.ari2000@gmail.com
+              <span>—</span> ninja.oshima@gmail.com
             </div>
             <div className="detail">
-              <span>—</span> IIIT Jabalpur, Near Dumna Airport, 482005
+              <span>—</span> 3305-1 Niimura, Matsumoto, Nagano 390-1241
             </div>
           </div>
         </div>

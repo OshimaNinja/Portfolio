@@ -41,6 +41,12 @@ const Skills = () => {
                 <div className="skills__content">
                     <div className="skills__name heading-5">TYPESCRIPT</div>
                 </div>
+                <div className="skills__content">
+                    <div className="skills__name heading-5">INTEGRATE WEB3</div>
+                </div>
+                <div className="skills__content">
+                    <div className="skills__name heading-5">SMART CONTRACT/NFT DEVELOPMENT</div>
+                </div>
             </div>
             
         </div>

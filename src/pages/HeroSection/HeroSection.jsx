@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./HeroSection.scss";
 import "../../styles/Elements/elements.scss";
 import { ReactComponent as Line } from "../../assets/line.svg";
@@ -10,9 +11,9 @@ import { ReactComponent as Triangle } from "../../assets/triangle.svg";
 import { ReactComponent as Benzene } from "../../assets/benzene.svg";
 import { ReactComponent as Github } from "../../assets/github.svg";
 import { ReactComponent as Linkedin } from "../../assets/linkedin.svg";
-import { ReactComponent as Instagram } from "../../assets/Instagram.svg";
 import { ReactComponent as Whatsapp } from "../../assets/whatsapp.svg";
 import Button from "../../components/Button/Button";
+
 const HeroSection = () => {
   return (
     <>
@@ -48,10 +49,10 @@ const HeroSection = () => {
           <span>HELLO</span>
         </div>
         <div className="heading-1 hero-section__heading-1">
-          I'm <span className="u-color-primary">Arihant</span> Jain
+          I'm <span className="u-color-primary">Oshima</span> Shohei
         </div>
         <div className="paragraph hero-section__paragraph">
-          This is <span className="u-color-primary-light">Arihant Jain,</span>{" "}
+          This is <span className="u-color-primary-light">Oshima Shohei,</span>{" "}
           Full Stack Developer, interests in Web Frameworks and technologies,
           looking for work
         </div>
@@ -65,7 +66,7 @@ const HeroSection = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/arihant-jain-09"
+              href="https://github.com/oshimaninja"
             >
               <Github />
             </a>
@@ -74,7 +75,7 @@ const HeroSection = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.linkedin.com/in/arihant-jain-09/"
+              href="https://www.linkedin.com/in/oshimaninja/"
             >
               <Linkedin />
             </a>
@@ -83,16 +84,7 @@ const HeroSection = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.instagram.com/arihant_jain_09/"
-            >
-              <Instagram />
-            </a>
-          </div>
-          <div className="hero-section__icons-icon">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://api.whatsapp.com/send?phone=7239873575"
+              href="mailto:ninja.oshima@gmail.com"
             >
               <Whatsapp />
             </a>
