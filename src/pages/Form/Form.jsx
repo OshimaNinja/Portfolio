@@ -31,7 +31,7 @@ const Form = () => {
               <span>—</span> ninja.oshima@gmail.com
             </div>
             <div className="detail">
-              <span>—</span> 3305-1 Niimura, Matsumoto, Nagano 390-1241
+              <span>—</span> 73 Homewood Ave, Toronto, On, Canada
             </div>
           </div>
         </div>

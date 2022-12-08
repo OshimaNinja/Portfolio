@@ -11,7 +11,7 @@ const Footer = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/oshimaninja"
+            href="https://github.com/ninjaoshima"
           >
             <Github />
           </a>

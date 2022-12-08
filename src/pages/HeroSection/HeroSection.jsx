@@ -66,7 +66,7 @@ const HeroSection = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/oshimaninja"
+              href="https://github.com/ninjaoshima"
             >
               <Github />
             </a>
@@ -75,7 +75,7 @@ const HeroSection = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.linkedin.com/in/oshimaninja/"
+              href="https://www.linkedin.com/in/ninjaoshima/"
             >
               <Linkedin />
             </a>
